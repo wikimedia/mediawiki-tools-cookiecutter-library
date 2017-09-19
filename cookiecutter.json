@@ -1,0 +1,7 @@
+{
+  "library_name": "MyCoolLibrary",
+  "description": "A short description about your library",
+  "author_name": "Your Name",
+  "author_email": "youremail@domain.ext",
+  "license": "GPL-2.0+"
+}

@@ -1,0 +1,31 @@
+{
+	"name": "!!COMPOSER_NAME!!",
+	"description": "{{ cookiecutter.description }}",
+	"license": "{{ cookiecutter.license }}",
+	"homepage": "https://www.mediawiki.org/wiki/{{ cookiecutter.library_name }}",
+	"authors": [
+		{
+			"name": "{{ cookiecutter.author_name }}",
+			"email": "{{ cookiecutter.author_email }}"
+		}
+	],
+	"autoload": {
+		"classmap": ["src/"]
+	},
+	"require": {
+		"php": ">=5.5.9"
+	},
+	"require-dev": {
+
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor",
+			"phpunit",
+			"phpcs -sp"
+		],
+		"fix": [
+			"phpcbf"
+		]
+	}
+}
