@@ -22,10 +22,12 @@
 		"test": [
 			"parallel-lint . --exclude vendor",
 			"phpunit",
-			"phpcs -sp"
+			"phpcs -sp",
+			"minus-x check ."
 		],
 		"fix": [
-			"phpcbf"
+			"phpcbf",
+			"minus-x fix ."
 		]
 	}
 }

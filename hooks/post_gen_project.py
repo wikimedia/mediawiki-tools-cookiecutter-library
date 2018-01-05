@@ -26,6 +26,7 @@ DEPENDENCIES = {
     'jakub-onderka/php-parallel-lint': '0.9.2',
     'jakub-onderka/php-console-highlighter': '0.3.2',
     'mediawiki/mediawiki-codesniffer': '13.0.0',
+    'mediawiki/minus-x': '0.2.1',
     'phpunit/phpunit': '4.8.36',
 }
 
