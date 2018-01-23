@@ -1,4 +1,4 @@
-<?php{% if cookiecutter.license == 'GPL-2.0' or cookiecutter.license == 'GPL-2.0+' %}
+<?php{% if cookiecutter.license == 'GPL-2.0-only' or cookiecutter.license == 'GPL-2.0-or-later' %}
 /**
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

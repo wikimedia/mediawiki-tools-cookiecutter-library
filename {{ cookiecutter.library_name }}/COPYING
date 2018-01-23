@@ -1,4 +1,4 @@
-{% if cookiecutter.license == 'GPL-2.0' or cookiecutter.license == 'GPL-2.0+' %}
+{% if cookiecutter.license == 'GPL-2.0-only' or cookiecutter.license == 'GPL-2.0-or-later' %}
                     GNU GENERAL PUBLIC LICENSE
                        Version 2, June 1991
 

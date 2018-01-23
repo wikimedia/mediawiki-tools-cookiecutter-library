@@ -3,5 +3,5 @@
   "description": "A short description about your library",
   "author_name": "Your Name",
   "author_email": "youremail@domain.ext",
-  "license": "GPL-2.0+"
+  "license": "GPL-2.0-or-later"
 }
