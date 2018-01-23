@@ -57,13 +57,18 @@ def composerify_name(name):
     return new
 
 
-with open('composer.json', 'r') as f:
-    text = f.read()
+def replace_composer_name(fname):
+    with open(fname, 'r') as f:
+        text = f.read()
 
-text = text.replace(
-    '!!COMPOSER_NAME!!',
-    'wikimedia/' + composerify_name(library_name)
-)
+    text = text.replace(
+        '!!COMPOSER_NAME!!',
+        'wikimedia/' + composerify_name(library_name)
+    )
 
-with open('composer.json', 'w') as f:
-    f.write(text)
+    with open(fname, 'w') as f:
+        f.write(text)
+
+
+replace_composer_name('composer.json')
+replace_composer_name('README.md')
