@@ -27,8 +27,8 @@ DEPENDENCIES = {
     'jakub-onderka/php-console-highlighter': '0.3.2',
     'mediawiki/mediawiki-codesniffer': '15.0.0',
     'mediawiki/minus-x': '0.2.1',
-    'ockcyp/covers-validator': '0.5.1',
-    'phpunit/phpunit': '4.8.36',
+    'ockcyp/covers-validator': '0.5.1 || 0.6.1',
+    'phpunit/phpunit': '4.8.36 || ^6.5',
 }
 
 for dep, version in DEPENDENCIES.items():
