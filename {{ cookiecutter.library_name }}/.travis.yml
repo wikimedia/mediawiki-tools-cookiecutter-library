@@ -4,7 +4,7 @@ php:
   - "7.1"
   - "7.2"
   - "7.3"
-  - "hhvm"
+  - "hhvm-3.18"
 env:
   global:
     - COMPOSER_DISABLE_XDEBUG_WARN=1
