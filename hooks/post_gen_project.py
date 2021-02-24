@@ -64,18 +64,18 @@ def replace_variable(fname, find, replace):
 
 
 def main():
-    for dep, version in DEPENDENCIES.items():
-        subprocess.call([
-            'composer', 'require', '%s:%s' % (dep, version),
-            '--dev', '--no-update'
-        ])
-
     for fname in ['composer.json', 'README.md']:
         replace_variable(
             fname,
             'COMPOSER_NAME',
             'wikimedia/' + composerify_name('{{ cookiecutter.library_name }}')
         )
+
+    for dep, version in DEPENDENCIES.items():
+        subprocess.call([
+            'composer', 'require', '%s:%s' % (dep, version),
+            '--dev', '--no-update'
+        ])
 
     license = '{{ cookiecutter.license }}'
     license_fname = 'COPYING'
