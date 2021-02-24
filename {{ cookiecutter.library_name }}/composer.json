@@ -11,7 +11,12 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"Wikimedia\\": "src/"
+			"Wikimedia\\{{ cookiecutter.library_name }}\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Wikimedia\\{{ cookiecutter.library_name }}\\Tests\\": "tests/"
 		}
 	},
 	"require": {
