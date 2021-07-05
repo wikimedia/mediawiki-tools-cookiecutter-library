@@ -7,4 +7,5 @@ composer.json export-ignore
 .phpcs.xml export-ignore
 phpunit.xml.dist export-ignore
 build/ export-ignore
+.phan/ export-ignore
 tests/ export-ignore
