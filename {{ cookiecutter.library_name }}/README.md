@@ -3,38 +3,39 @@
 {{ cookiecutter.library_name }}
 =====================
 
+{{ cookiecutter.description }}.
+
 FILL THIS IN
 
-Additional documentation about the library can be found on
-[MediaWiki.org](https://www.mediawiki.org/wiki/{{ cookiecutter.library_name }}).
+Additional documentation about this library can be found on
+[mediawiki.org](https://www.mediawiki.org/wiki/{{ cookiecutter.library_name }}).
 
 
 Usage
 -----
 
-    // Fill this in
+```php
+  // FILL THIS IN
+```
 
 
 Running tests
 -------------
 
-    composer install --prefer-dist
-    composer test
-
+```
+composer install
+composer test
+```
 
 History
 -------
 
-Review and update this section.
-This library was first introduced in [MediaWiki 1.16][] ([r52203][]). It was
+UPDATE THIS SECTION
+This library was first introduced in MediaWiki 1.27 ([eb46307b00](https://gerrit.wikimedia.org/r/c/mediawiki/core/+/264403/)). It was
 split out of the MediaWiki codebase and published as an independent library
-during the [MediaWiki 1.25][] development cycle.
+during the MediaWiki 1.37 development cycle.
 
 
 ---
-[MediaWiki 1.16]: https://www.mediawiki.org/wiki/MediaWiki_1.16
-[r52203]: https://www.mediawiki.org/wiki/Special:Code/MediaWiki/52203
-[MediaWiki 1.25]: https://www.mediawiki.org/wiki/MediaWiki_1.25
 [Latest Stable Version]: https://poser.pugx.org/!!COMPOSER_NAME!!/v/stable.svg
 [License]: https://poser.pugx.org/!!COMPOSER_NAME!!/license.svg
-

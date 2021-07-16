@@ -5,6 +5,6 @@
 	<arg name="encoding" value="UTF-8"/>
 	<arg name="extensions" value="php"/>
 	<exclude-pattern>coverage</exclude-pattern>
-	<exclude-pattern>vendor</exclude-pattern>
 	<exclude-pattern>doc/html</exclude-pattern>
+	<exclude-pattern>vendor</exclude-pattern>
 </ruleset>

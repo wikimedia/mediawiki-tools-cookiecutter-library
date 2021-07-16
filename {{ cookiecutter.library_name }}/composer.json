@@ -31,13 +31,14 @@
 			"phpunit",
 			"covers-validator",
 			"phpcs -sp",
+			"@phan",
 			"minus-x check ."
 		],
 		"phan": "phan --allow-polyfill-parser",
 		"cover": "phpunit --coverage-html coverage",
 		"fix": [
-			"minus-x fix .",
-			"phpcbf"
+			"phpcbf",
+			"minus-x fix ."
 		]
 	}
 }

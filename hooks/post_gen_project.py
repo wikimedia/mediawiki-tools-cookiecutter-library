@@ -26,12 +26,12 @@ import subprocess
 
 DEPENDENCIES = {
     # Would be nice if we didnt need to hardcode these...
-    "mediawiki/mediawiki-codesniffer": "35.0.0",
+    "mediawiki/mediawiki-codesniffer": "36.0.0",
     "mediawiki/mediawiki-phan-config": "0.10.6",
     "mediawiki/minus-x": "1.1.1",
     "ockcyp/covers-validator": "1.3.3",
-    "php-parallel-lint/php-console-highlighter": "^0.5",
-    "php-parallel-lint/php-parallel-lint": "1.2.0",
+    "php-parallel-lint/php-console-highlighter": "0.5.0",
+    "php-parallel-lint/php-parallel-lint": "1.3.0",
     "phpunit/phpunit": "^8.5|^9.5"
 }
 LICENSES = 'licenses'
@@ -78,14 +78,15 @@ def main():
         ])
 
     license = '{{ cookiecutter.license }}'
-    license_fname = 'COPYING'
+    license_fname = 'LICENSE'
     if license in ['Apache-2.0', 'MIT']:
-        license_fname = 'LICENSE'
         license_file = license + '.txt'
     elif license.startswith('GPL-2.0'):
         license_file = 'GPL-2.0.txt'
+        license_fname = 'COPYING'
     elif license.startswith('GPL-3.0'):
         license_file = 'GPL-3.0.txt'
+        license_fname = 'COPYING'
     else:
         license_file = 'placeholder.txt'
 
