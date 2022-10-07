@@ -32,7 +32,7 @@ DEPENDENCIES = {
     "ockcyp/covers-validator": "1.3.3",
     "php-parallel-lint/php-console-highlighter": "0.5.0",
     "php-parallel-lint/php-parallel-lint": "1.3.0",
-    "phpunit/phpunit": "^8.5|^9.5"
+    "phpunit/phpunit": "^9.5"
 }
 LICENSES = 'licenses'
 
