@@ -16,7 +16,7 @@
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"Wikimedia\\{{ cookiecutter.library_name }}\\Tests\\": "tests/"
+			"Wikimedia\\{{ cookiecutter.library_name }}\\Tests\\": "tests/phpunit/"
 		}
 	},
 	"require": {

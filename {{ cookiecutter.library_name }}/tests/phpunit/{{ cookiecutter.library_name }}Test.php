@@ -2,6 +2,8 @@
 
 namespace Wikimedia\{{ cookiecutter.library_name }}\Tests;
 
-class {{ cookiecutter.library_name }}Test {
+use PHPUnit\Framework\TestCase;
+
+class {{ cookiecutter.library_name }}Test extends TestCase {
 
 }
