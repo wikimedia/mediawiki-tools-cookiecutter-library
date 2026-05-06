@@ -26,13 +26,13 @@ import subprocess
 
 DEPENDENCIES = {
     # Would be nice if we didnt need to hardcode these...
-    "mediawiki/mediawiki-codesniffer": "48.0.0",
-    "mediawiki/mediawiki-phan-config": "0.17.0",
-    "mediawiki/minus-x": "1.1.3",
+    "mediawiki/mediawiki-codesniffer": "51.0.0",
+    "mediawiki/mediawiki-phan-config": "0.20.0",
+    "mediawiki/minus-x": "2.0.1",
     "ockcyp/covers-validator": "1.7.0",
     "php-parallel-lint/php-console-highlighter": "1.0.0",
     "php-parallel-lint/php-parallel-lint": "1.4.0",
-    "phpunit/phpunit": "10.5.46"
+    "phpunit/phpunit": "10.5.63"
 }
 LICENSES = 'licenses'
 
