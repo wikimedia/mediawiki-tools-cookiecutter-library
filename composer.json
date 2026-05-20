@@ -1,0 +1,18 @@
+{
+    "name": "wikimedia/cookiecutter-library",
+    "description": "Cookiecutter template for Wikimedia PHP libraries",
+    "license": "GPL-3.0-or-later",
+    "require": {},
+    "require-dev": {
+        "mediawiki/mediawiki-codesniffer": "51.0.0",
+        "mediawiki/mediawiki-phan-config": "0.20.0",
+        "mediawiki/minus-x": "2.0.1",
+        "ockcyp/covers-validator": "1.7.0",
+        "php-parallel-lint/php-console-highlighter": "1.0.0",
+        "php-parallel-lint/php-parallel-lint": "1.4.0",
+        "phpunit/phpunit": "10.5.63"
+    },
+    "scripts": {
+        "test": "@echo 'No PHP test suite (cookiecutter template repository)'"
+    }
+}
