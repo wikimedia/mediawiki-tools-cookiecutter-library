@@ -26,7 +26,7 @@ import shutil
 import string
 import subprocess
 
-_TEMPLATE_ROOT = pathlib.Path(__file__).parent.parent
+_TEMPLATE_ROOT = pathlib.Path('{{ cookiecutter._repo_dir }}')
 with open(_TEMPLATE_ROOT / 'composer.json') as f:
     DEPENDENCIES = json.load(f)['require-dev']
 LICENSES = 'licenses'
